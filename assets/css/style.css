@@ -279,6 +279,9 @@ p {
     -webkit-backdrop-filter: blur(10px);
     border: 1px solid #ffffff28;
     /* font-size: 14px; */
+    display: flex;
+    align-items: left;
+    gap: 10px;
 }
 
 .form_data {
@@ -608,8 +611,8 @@ select::placeholder {
 
 .service-card {
     background: #fff;
-    border-radius: 20px;
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+    box-shadow: 0px 3px 64px 0px rgba(41, 54, 69, 0.1);
     transition: all 0.3s ease;
     padding: 20px;
 }
@@ -651,10 +654,11 @@ select::placeholder {
 }
 
 .learn-link {
-    color: var(--text-color);
-    font-weight: 500;
+    color: #270700;
+    font-weight: 400;
     text-decoration: none;
-    border-bottom: 1px solid var(--dark-color);
+    border-bottom: 1px solid #270700;
+    font-size: 15px;
 }
 
 .testimonial-box i {
@@ -970,4 +974,37 @@ select::placeholder {
     .theme-btn24.vl-btn1 {
         width: auto;
     }
+}
+
+
+
+.trafic_grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+}
+
+.traf_box img {
+    width: 60px;
+    margin-bottom: 0.5rem;
+}
+
+.traf_box {
+    padding: 20px;
+    border-radius: 10px;
+
+}
+
+.traf_box h5 {
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+.traf_box p {
+    color: var(--secondary-color);
+}
+
+.traf_box:hover {
+    transition: 0.4s all ease;
+    box-shadow: 0px 3px 64px 0px rgba(41, 54, 69, 0.1);
 }

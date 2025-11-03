@@ -179,6 +179,36 @@
         margin-top: 1.5rem !important;
     }
 
+    .testimonial-box {
+        padding: 10px;
+
+    }
+
+    .trafic_grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 5px;
+    }
+
+    .traf_box h5 {
+        text-transform: uppercase;
+        font-size: 14px;
+    }
+
+    .traf_box img {
+        width: 50px;
+        margin-bottom: 0.5rem;
+    }
+
+    .traf_box h5 {
+        text-transform: uppercase;
+        font-size: 14px;
+    }
+
+    .traf_box {
+        padding: 10px;
+        border-radius: 10px;
+    }
+
     p {
         font-size: 13px !important;
     }
@@ -190,7 +220,7 @@
 
     .m_tech {
         margin-bottom: 2rem !important;
-        text-align:  left !important;
+        text-align: left !important;
     }
 
     .m_tech p {
@@ -211,9 +241,18 @@
     }
 
     .testimonial-box p {
-        font-size: 15px !important;
+        font-size: 14px !important;
         line-height: normal !important;
         width: 100% !important;
+    }
+
+    .dslc-testimonial-author-position {
+        font-size: 12px;
+    }
+
+    .dslc-testimonial-author-name {
+        font-size: 17px;
+        font-weight: 600;
     }
 
     .dslc-testimonial-author-name {
